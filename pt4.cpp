@@ -114,7 +114,7 @@ int main()
     } while (users[current_index].cvv.length() != 3);
 
 
-    users[current_index].balance = 1000 + (rand() % 9001); // Getting a number from 0 to 9000 and adding 1000 to ensure enough balance in the account.
+    users[current_index].balance = 1000 + (rand() % 50001); // Getting a number from 0 to 50000 and adding 1000 to ensure enough balance in the account.
 
     cout << "--- Account Created! ---" << endl;
     cout << "Bank name : " << users[current_index].bank_name << endl;
